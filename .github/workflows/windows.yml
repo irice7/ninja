@@ -7,6 +7,7 @@ on:
     tags-ignore: ['**']  # Don't trigger on tag pushes
   release:
     types: [published]
+  workflow_dispatch:
 
 jobs:
   build:
